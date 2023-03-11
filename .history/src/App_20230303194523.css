@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  padding:1.5% ;
+}
+
+.logoimg {
+  height: 35vh;
+}
+
+.navbar {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.navlinks a {
+  margin: 20px;
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.navlinks a:hover

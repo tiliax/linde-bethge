@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding:1.5% ;
+  display:flex;
+}
+
+.navbar {
+  align-items: center;
+  justify-content:space-around;
+}
+
+.logo {
+
+
+}
+
+/* .navlinks {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+} */

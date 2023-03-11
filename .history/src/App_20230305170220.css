@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+/* //HEADER// */
+.header {
+  background-color: #282c34;
+  font-size: calc(8px + 2vmin);
+  padding:1.1% ;
+  position:sticky;
+  
+}
+
+/* navbar */
+.logoimg {
+  height: 30vh;
+  margin-top: 5%;
+}
+
+.navbar {
+  display:flex;
+  /* position:relative; */
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.navlinks a {
+  margin: 20px;
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  /* font-size: calc(12px + 2vmin); */
+  color: aqua;
+}
+
+/* //MAIN// */
+.main {
+  background-color: #636d81;
+}
+
+hr {
+  border-color: black;
+  margin-left: 40vh;
+  margin-right: 40vh;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+h1 {
+  display: flex;
+  margin-top: 10vh;
+  margin-left: 20vh;
+}
+
+/* //HOME// */
+.home {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.home li {
+  list-style: none;
+  font-size: calc(13px + 2vmin);
+  margin-top: 5vh;
+}
+
+.profiltext p {
+  /* font-style: italic; */
+  font-weight: bold;
+  margin-right: 8vw;
+  margin-left: 5vw;
+}
+
+.profil {
+  height: 60vh;
+  width: auto;
+  margin-top: 3,5vh;
+  margin-bottom: 3,5vh;
+  margin-right: 10vh;
+  border-radius: 50%;
+}
+
+/* //ABOUT ME// */
+.aboutme {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  /* margin-top: 10vh; */
+}
+.aboutme img {
+  height: 35vh;
+  border-radius: 7px;
+  margin-bottom: 3vh;
+}
+
+.aboutme p {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* //SKILLS// */
+.skills {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.skillimages1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.skillimages2 {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  background-color: rgb(218, 218, 226);
+  width: 9vw;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: -3vh;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* //PROJECTS// */
+.myprojects {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.freebox {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 12.5vw;
+  margin-right: 8vw;
+}
+
+.freeboximage {
+  height: auto;
+  width: 50vh;
+  margin-right: 3vw;
+}
+
+.freeboxinfo {
+  margin-top: -4vh;
+  margin-right: 7vw;
+  text-align: left;
+
+}
+
+.freeboxinfo button {
+  margin-right: 10px;
+}
+
+.pokefight {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 12.5vw;
+  margin-right: 8vw;
+}
+
+.fimage {
+  height: auto;
+  width: 50vh;
+  margin-right: 3vw;
+}

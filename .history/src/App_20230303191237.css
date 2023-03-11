@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding:1.5% ;
+}
+
+.logoimg {
+  height: 0.5;
+}
+
+.navbar {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.navlinks a {
+  margin: 20px;
+}
