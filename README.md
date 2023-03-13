@@ -1,4 +1,4 @@
-#H1 Portfolio
+# Portfolio
 Linde Bethge
 
 https://linde-bethge.onrender.com
