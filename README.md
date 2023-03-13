@@ -1,4 +1,3 @@
-# Portfolio
-Linde Bethge
+# Linde Bethge
 
 https://linde-bethge.onrender.com
