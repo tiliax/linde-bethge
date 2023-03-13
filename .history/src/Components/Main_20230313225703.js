@@ -37,9 +37,7 @@ const Main = () => {
             <div id='aboutme' className="aboutme">
                 <h1 >About me</h1>
                 <img src={myProfil} alt="myProfil" />
-                <p>During my 15-week course at WBS Coding School for web and app development, I gained comprehensive knowledge and practical skills in various programming languages and databases. I have a solid understanding of React, NodeJS, JavaScript, HTML, CSS, SQL databases, and NoSQL databases, and I am eager to continue deepening my expertise in these areas.<br/> <br/>
-                As a highly motivated individual, I am committed to exploring the latest trends and advancements in web and app development, and to applying my skills to develop innovative solutions that meet the needs of clients and users. I am also a team player and thrive in collaborative environments, working effectively with colleagues to meet project goals and deliver top-quality results.<br/> <br/>
-                Overall, I am confident in my abilities as a developer and look forward to the opportunity to contribute my skills to exciting projects and initiatives in the field of web and app development.</p>
+                <p>During my 15-week course at WBS Coding School for web and app development, I gained comprehensive knowledge and practical skills in various programming languages and databases. I have a solid understanding of React, NodeJS, JavaScript, HTML, CSS, SQL databases, and NoSQL databases, and I am eager to continue deepening my expertise in these areas. As a highly motivated individual, I am committed to exploring the latest trends and advancements in web and app development, and to applying my skills to develop innovative solutions that meet the needs of clients and users. I am also a team player and thrive in collaborative environments, working effectively with colleagues to meet project goals and deliver top-quality results.<br/> Overall, I am confident in my abilities as a developer and look forward to the opportunity to contribute my skills to exciting projects and initiatives in the field of web and app development.</p>
             </div>
             <hr />
 
