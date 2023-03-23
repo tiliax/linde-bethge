@@ -94,8 +94,7 @@ function Main () {
                 {/* Freebox */}
                 <div className='freebox'>
                     <div>
-                        {/* <a href="#"><img className="freeboximage" src={FREEBOX} alt="freebox" /></a> */}
-                        <img className="freeboximage" src={FREEBOX} alt="freebox" />
+                        <a href="#"><img className="freeboximage" src={FREEBOX} alt="freebox" /></a>
                     </div>
                     <div className="freeboxinfo">
                         <p>A <b>Freebox</b> is a giftbox with giveaways. With the Freebox App you can upload pictures, article information and set a location. Other users can check the map, see where the next freebox is located, see what goods are in there and go grab them. Like this goods can be found and reused.  
@@ -106,12 +105,10 @@ function Main () {
                         <a href="https://github.com/tiliax/MyFreebox_BE" target="_blank"><button>Backend</button></a>                        
                     </div>
                 </div>
-
                 {/* Pokefight */}
                 <div className='pokefight'>
                     <div>
-                        {/* <a href="#"><img className="pokefightimage" src={POKEFIGHT} alt="pokefight" /></a> */}
-                        <img className="pokefightimage" src={POKEFIGHT} alt="pokefight" />
+                        <a href="#"><img className="pokefightimage" src={POKEFIGHT} alt="pokefight" /></a>
                     </div>
                     <div className="pokefightinfo">
                         <p><b>Pokemon</b> is a little game App. You can choose a pokemon on its characteristics and let it fight another. The listed Pokemon details may help you make a profitable decision. 
@@ -133,10 +130,8 @@ function Main () {
                     <br />
                     <div className='contacticons'>
                         <a href="https://www.linkedin.com/in/linde-bethge/" target="_blank"><img className='icon' src={LINKEDIN} alt="linkedin" /></a>
-
-                        <a href="mailto:linde.cassecou@gmail.com"><img className='icon' src={MAIL} alt="mail" /></a>
-
-
+                        
+                        <a href="#"><img className='icon' src={MAIL} alt="mail" /></a>
                         <a href="https://github.com/tiliax" target="_blank"><img className='icon' src={GITHUB} alt="github" /></a>
                     </div>
                 </div>

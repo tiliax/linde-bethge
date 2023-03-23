@@ -19,9 +19,10 @@ function App() {
                       <a href="#home"><img className="logoimg" src={Logo} alt="logo" /></a>
                     </div>
                   </HashLink>
-
+                  
                 {/* NAVLINKS */}
                 <div className="navlinks">
+                  {/* <Link to="/">Home</Link> */}
                   <HashLink smooth to="/#home">Home</HashLink>
                   <HashLink smooth to="/#aboutme">About me</HashLink>
                   <HashLink smooth to="/#skills">Skills</HashLink>
