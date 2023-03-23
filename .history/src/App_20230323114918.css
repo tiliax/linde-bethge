@@ -1,0 +1,289 @@
+.App {
+  text-align: center;
+}
+
+/* //HEADER// */
+.header {
+  background-color: #282c34;
+  font-size: calc(8px + 2vmin);
+  padding:1.1% ;
+  width: 100%;
+  position:fixed;
+  
+}
+
+/* navbar */
+.logoimg {
+  height: 20vh;
+  margin-top: 5%;
+}
+
+.navbar {
+  display:flex;
+  /* position:relative; */
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.navlinks a {
+  margin: 20px;
+  color: #d9d9d9;
+  /* color: #a6a6a6; */
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  /* font-size: calc(12px + 2vmin); */
+  color: #5e6e8f;
+  /* transition: 0.7s; */
+}
+
+/* //MAIN// */
+.main {
+  background-color: #64789f;
+  /* background-color: #5e6e8f; */
+}
+
+hr {
+  border-color: black;
+  margin-left: 40vh;
+  margin-right: 40vh;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+h1 {
+  display: flex;
+  margin-top: 10vh;
+  margin-left: 20vh;
+}
+
+/* //HOME// */
+.home {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 18vh;
+}
+
+.home li {
+  list-style: none;
+  font-size: calc(13px + 2vmin);
+  /* font-size: 110%; */
+  margin-top: 5vh;
+}
+
+.profiltext p {
+  font-weight: bold;
+  margin-right: 8vw;
+  margin-left: 5vw;
+}
+
+.homeimg {
+  height: auto;
+  width: 40vw;
+  margin-top: 3,5vh;
+  margin-bottom: 3,5vh;
+  margin-right: 10vh;
+  border-radius: 50%;
+}
+
+/* //ABOUT ME// */
+.aboutme {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  /* margin-top: 10vh; */
+}
+.aboutme img {
+  height: 35vh;
+  border-radius: 7px;
+  margin-bottom: 3vh;
+}
+
+.aboutme p {
+  width: 51.8vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+/* //SKILLS// */
+.skills {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.skills p {
+  font-size: 3vh;
+}
+
+.skillimages1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.skillimages2 {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  /* background-color: rgb(218, 218, 226); */
+  width: 9.5vw;
+  height: auto;
+  margin-left: 2.25vw;
+  margin-right: 2.25vw;
+  margin-bottom: -3vh;
+}
+
+/* //PROJECTS// */
+.myprojects {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+/* Freebox */
+.freebox {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 13.7vw;
+  margin-right: 6.6vw;
+  margin-bottom: 10vh;
+  font-size: 2.5vh;
+  align-items: center;
+}
+
+.freeboximage {
+  height: auto;
+  width: 45vh;
+  margin-right: 3vw;
+  border-radius: 5px;
+}
+
+.freeboxinfo {
+  /* margin-top: -3vh; */
+  margin-right: 7vw;
+  text-align: left;
+  text-align: justify;
+}
+
+.freeboxinfo button {
+  margin-right:0.7vw;
+  padding: 3% 4%;
+  border-radius: 10px;
+  border: none;
+  background-color: #282c34;
+  color: #d9d9d9;
+}
+
+.freeboxinfo button:hover {
+  background-color: #1f1f23;
+  /* transition: 0.7s; */
+  cursor: pointer;
+}
+
+/* Pokefight */
+.pokefight {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 13.7vw;
+  margin-right: 6.6vw;
+  font-size: 2.5vh;
+  /* align-items: center; */
+}
+
+.pokefightimage {
+  height: auto;
+  width: 45vh;
+  margin-right: 3vw;
+  border-radius: 5px;
+}
+
+.pokefightinfo {
+  /* margin-top: -3vh; */
+  margin-right: 7vw;
+  /* text-align: left; */
+  text-align: justify;
+}
+
+.pokefightinfo button {
+  margin-right: 0.7vw;
+  padding: 3% 4%;
+  border-radius: 10px;
+  border: none;
+  background-color: #282c34;
+  color: #d9d9d9;
+}
+
+.pokefightinfo button:hover {
+  background-color: #1f1f23;
+  /* transition: 0.7s; */
+  cursor: pointer;
+}
+
+/* //CONTACT// */
+.contact {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.contactinfo {
+  /* width: 50vw; */
+  margin-left: 13.7vw;
+  margin-right: 6.6vw;
+  text-align: left;  
+}
+
+/* ICONS */
+.contacticons {
+  display: inline;
+}
+
+.contactinfo{
+  margin-left: 13.7vw;
+  margin-right: 6.6vw;
+}
+
+.icon {
+  height: auto;
+  width: 7vh;
+  margin-right: 1.5vw;
+  position: relative;
+  opacity: 1; 
+
+}
+
+.contacticons img:hover {
+  opacity: 0.8; 
+}
+
+/* //Footer// */
+.footer {
+  padding-bottom: 2vh;
+}
+
+.footer a {
+  margin: 1vw;
+  color: black;
+}
+
+.footer a:hover {
+  color: #282c34;
+}
+
+/* IMPRESSUM */
+.imprissum {
+  padding-top: 20vh;
+  padding-bottom: 22.6vh;
+  background-color: #64789f;
+
+}
