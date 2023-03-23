@@ -9,7 +9,7 @@ function Impressum () {
             <p>Linde Bethge <br/> Kanner Str.4 <br/> 12055 Berlin</p>
             <br/>
             <h3>Kontakt</h3>
-            <p>Telefon: +4915732025087 <br/> E-Mail: linde.cassecou@gmail.com</p>
+            <p>Telefon: 015732025087 <br/> E-Mail: linde.cassecou@gmail.com</p>
             </div>
         </div>
      );

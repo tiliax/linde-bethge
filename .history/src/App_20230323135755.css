@@ -168,6 +168,7 @@ h1 {
   margin-right: 6.6vw;
   margin-bottom: 10vh;
   font-size: 2.5vh;
+  /* align-items: center; */
 }
 
 .freeboximage {
@@ -178,6 +179,7 @@ h1 {
 }
 
 .freeboxinfo {
+  margin-top: -3vh;
   margin-right: 7vw;
   text-align: left;
   text-align: justify;
@@ -194,7 +196,7 @@ h1 {
 
 .freeboxinfo button:hover {
   background-color: #1f1f23;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   cursor: pointer;
 }
 
@@ -230,7 +232,7 @@ h1 {
 
 .pokefightinfo button:hover {
   background-color: #1f1f23;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   cursor: pointer;
 }
 
@@ -245,6 +247,7 @@ h1 {
 }
 
 .contactinfo {
+  /* width: 50vw; */
   margin-left: 13.7vw;
   margin-right: 6.6vw;
   text-align: left;  
@@ -265,7 +268,8 @@ h1 {
   width: 7vh;
   margin-right: 1.5vw;
   position: relative;
-  opacity: 1;
+  opacity: 1; 
+
 }
 
 .contacticons img:hover {
@@ -278,8 +282,6 @@ h1 {
 }
 .footer {
   padding-bottom: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .footer a {

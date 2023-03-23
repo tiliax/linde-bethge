@@ -4,7 +4,7 @@ import Impressum from "./Components/Impressum"
 import Datenschutz from "./Components/Datenschutz";
 import Logo from './Components/images/LB_Logo.png'
 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import { HashLink } from "react-router-hash-link";
 
 function App() {

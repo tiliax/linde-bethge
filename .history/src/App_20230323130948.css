@@ -32,17 +32,20 @@ nav li {
 .navlinks a {
   margin: 20px;
   color: #d9d9d9;
+  /* color: #a6a6a6; */
   text-decoration: none;
 }
 
 .navlinks a:hover {
   /* font-size: calc(12px + 2vmin); */
   color: #5e6e8f;
+  /* transition: 0.7s; */
 }
 
 /* //MAIN// */
 .main {
   background-color: #64789f;
+  /* background-color: #5e6e8f; */
 }
 
 hr {
@@ -74,6 +77,7 @@ h1 {
 .home li {
   list-style: none;
   font-size: calc(13px + 2vmin);
+  /* font-size: 110%; */
   margin-top: 5vh;
 }
 
@@ -93,19 +97,13 @@ h1 {
 }
 
 /* //ABOUT ME// */
-#aboutme {
-  padding-top: 7vh;
-}
-
 .aboutme {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
 
+  /* margin-top: 10vh; */
+}
 .aboutme img {
+  height: 35vh;
   border-radius: 7px;
-  width: 14vw ;
-  margin-left: calc(50% - 7vw);
   margin-bottom: 3vh;
 }
 
@@ -117,9 +115,6 @@ h1 {
 }
 
 /* //SKILLS// */
-#skills {
-  padding-top: 7vh;
-}
 .skills {
   margin-left: 10vw;
   margin-right: 10vw;
@@ -127,8 +122,6 @@ h1 {
 
 .skills p {
   font-size: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .skillimages1 {
@@ -143,6 +136,7 @@ h1 {
 }
 
 .item {
+  /* background-color: rgb(218, 218, 226); */
   width: 9.5vw;
   height: auto;
   margin-left: 2.25vw;
@@ -151,10 +145,6 @@ h1 {
 }
 
 /* //PROJECTS// */
-#projects {
-  padding-top: 7vh;
-}
-
 .myprojects {
   margin-left: 10vw;
   margin-right: 10vw;
@@ -168,6 +158,7 @@ h1 {
   margin-right: 6.6vw;
   margin-bottom: 10vh;
   font-size: 2.5vh;
+  align-items: center;
 }
 
 .freeboximage {
@@ -178,6 +169,7 @@ h1 {
 }
 
 .freeboxinfo {
+  /* margin-top: -3vh; */
   margin-right: 7vw;
   text-align: left;
   text-align: justify;
@@ -194,7 +186,7 @@ h1 {
 
 .freeboxinfo button:hover {
   background-color: #1f1f23;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   cursor: pointer;
 }
 
@@ -205,6 +197,7 @@ h1 {
   margin-left: 13.7vw;
   margin-right: 6.6vw;
   font-size: 2.5vh;
+  /* align-items: center; */
 }
 
 .pokefightimage {
@@ -215,7 +208,9 @@ h1 {
 }
 
 .pokefightinfo {
+  /* margin-top: -3vh; */
   margin-right: 7vw;
+  /* text-align: left; */
   text-align: justify;
 }
 
@@ -230,21 +225,18 @@ h1 {
 
 .pokefightinfo button:hover {
   background-color: #1f1f23;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   cursor: pointer;
 }
 
 /* //CONTACT// */
-#contact {
-  padding-top: 7vh;
-}
-
 .contact {
   margin-left: 10vw;
   margin-right: 10vw;
 }
 
 .contactinfo {
+  /* width: 50vw; */
   margin-left: 13.7vw;
   margin-right: 6.6vw;
   text-align: left;  
@@ -265,7 +257,8 @@ h1 {
   width: 7vh;
   margin-right: 1.5vw;
   position: relative;
-  opacity: 1;
+  opacity: 1; 
+
 }
 
 .contacticons img:hover {
@@ -273,13 +266,8 @@ h1 {
 }
 
 /* //Footer// */
-#footer {
-  margin-bottom: 5vh !important;
-}
 .footer {
-  padding-bottom: 3vh;
-  display: flex;
-  justify-content: center;
+  padding-bottom: 2vh;
 }
 
 .footer a {

@@ -103,10 +103,13 @@ h1 {
 }
 
 .aboutme img {
-  border-radius: 7px;
+  /* height: 35vh; */
   width: 14vw ;
-  margin-left: calc(50% - 7vw);
+  border-radius: 7px;
   margin-bottom: 3vh;
+  margin-left: 50% - 7vw;
+  margin-right: 10vw;
+  
 }
 
 .aboutme p {
@@ -127,8 +130,6 @@ h1 {
 
 .skills p {
   font-size: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .skillimages1 {
@@ -143,6 +144,7 @@ h1 {
 }
 
 .item {
+  /* background-color: rgb(218, 218, 226); */
   width: 9.5vw;
   height: auto;
   margin-left: 2.25vw;
@@ -168,6 +170,7 @@ h1 {
   margin-right: 6.6vw;
   margin-bottom: 10vh;
   font-size: 2.5vh;
+  align-items: center;
 }
 
 .freeboximage {
@@ -178,6 +181,7 @@ h1 {
 }
 
 .freeboxinfo {
+  /* margin-top: -3vh; */
   margin-right: 7vw;
   text-align: left;
   text-align: justify;
@@ -194,7 +198,7 @@ h1 {
 
 .freeboxinfo button:hover {
   background-color: #1f1f23;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   cursor: pointer;
 }
 
@@ -205,6 +209,7 @@ h1 {
   margin-left: 13.7vw;
   margin-right: 6.6vw;
   font-size: 2.5vh;
+  /* align-items: center; */
 }
 
 .pokefightimage {
@@ -215,7 +220,9 @@ h1 {
 }
 
 .pokefightinfo {
+  /* margin-top: -3vh; */
   margin-right: 7vw;
+  /* text-align: left; */
   text-align: justify;
 }
 
@@ -230,7 +237,7 @@ h1 {
 
 .pokefightinfo button:hover {
   background-color: #1f1f23;
-  transition: 0.7s;
+  /* transition: 0.7s; */
   cursor: pointer;
 }
 
@@ -245,6 +252,7 @@ h1 {
 }
 
 .contactinfo {
+  /* width: 50vw; */
   margin-left: 13.7vw;
   margin-right: 6.6vw;
   text-align: left;  
@@ -265,7 +273,8 @@ h1 {
   width: 7vh;
   margin-right: 1.5vw;
   position: relative;
-  opacity: 1;
+  opacity: 1; 
+
 }
 
 .contacticons img:hover {
@@ -278,8 +287,6 @@ h1 {
 }
 .footer {
   padding-bottom: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .footer a {

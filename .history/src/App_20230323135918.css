@@ -265,7 +265,8 @@ h1 {
   width: 7vh;
   margin-right: 1.5vw;
   position: relative;
-  opacity: 1;
+  opacity: 1; 
+
 }
 
 .contacticons img:hover {
@@ -278,8 +279,6 @@ h1 {
 }
 .footer {
   padding-bottom: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .footer a {

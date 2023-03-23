@@ -278,8 +278,6 @@ h1 {
 }
 .footer {
   padding-bottom: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .footer a {
