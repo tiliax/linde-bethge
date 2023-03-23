@@ -1,7 +1,7 @@
 import Logo from './images/LB_Logo.png'
+import { Link } from 'react-router-dom';
 
-
-const Header = () => {
+function Header() {
     return (
 
         // NAVBAR
@@ -17,9 +17,9 @@ const Header = () => {
                 <div className="navlinks">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#aboutme">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <Link to="/"><li><a href="#skills">Skills</a></li></Link>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>                
+                    <li><a href="#contact">Contact</a></li>
                 </div>
             </nav>
         </div>

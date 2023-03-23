@@ -1,0 +1,17 @@
+import React from "react";
+
+function Impressum () {
+    return ( 
+        <div className="impressum">
+            <h2>Impressum</h2>
+            <br />
+            <h3>Angaben gemäß § 5 TMG</h3>
+            <p>Linde Bethge <br/> Kanner Str.4 <br/> 12055 Berlin</p>
+            <br/>
+            <h3 id="">Kontakt</h3>
+            <p>Telefon: 015732025087 <br/> E-Mail: linde.cassecou@gmail.com</p>
+        </div>
+     );
+}
+ 
+export default Impressum;

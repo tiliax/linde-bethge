@@ -1,0 +1,29 @@
+import Logo from './images/LB_Logo.png'
+import { Link } from 'react-router-dom';
+
+function Header() {
+    return (
+
+        // NAVBAR
+        <div className="header">
+            <nav className="navbar">
+                {/* LOGO */}
+                <div className="logo">
+                    <a href="#home">
+                        <img className="logoimg" src={Logo} alt="logo" />
+                    </a>
+                </div>
+                {/* NAVLINKS */}
+                <div className="navlinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <Link to="/ #skills">Skills</Link>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </nav>
+        </div>
+    );
+}
+ 
+export default Header;
