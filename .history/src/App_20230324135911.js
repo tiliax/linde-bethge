@@ -17,7 +17,7 @@ function App() {
 
                 <div className="logo">
                   <img className="logoimg" src={Logo} alt="logo" />
-                </div>
+                  </div>
 
                 {/* NAVLINKS */}
                 <div className="navlinks">

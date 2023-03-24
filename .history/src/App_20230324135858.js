@@ -15,9 +15,9 @@ function App() {
 
                 {/* LOGO */}
 
-                <div className="logo">
-                  <img className="logoimg" src={Logo} alt="logo" />
-                </div>
+                  <div className="logo">
+                    <img className="logoimg" src={Logo} alt="logo" />
+                    </div>
 
                 {/* NAVLINKS */}
                 <div className="navlinks">

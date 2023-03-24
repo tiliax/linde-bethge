@@ -14,10 +14,10 @@ function App() {
             <nav className="navbar">
 
                 {/* LOGO */}
-
-                <div className="logo">
-                  <img className="logoimg" src={Logo} alt="logo" />
-                </div>
+                  {/* <HashLink smooth to="/#home"> */}
+                    <div className="logo">
+                      <img className="logoimg" src={Logo} alt="logo" />
+                    </div>
 
                 {/* NAVLINKS */}
                 <div className="navlinks">
