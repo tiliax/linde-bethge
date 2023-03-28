@@ -110,7 +110,7 @@ function Main () {
                 {/* Pokefight */}
                 <div className='pokefight'>
                     <div>
-                        <a target="_blank" href="https://pokefight-game.netlify.app/"><img className="pokefightimage" src={POKEFIGHT} alt="pokefight" /></a>
+                        <a target="_blank" href="pokefight-game.netlify.app"><img className="pokefightimage" src={POKEFIGHT} alt="pokefight" /></a>
                         {/* <img className="pokefightimage" src={POKEFIGHT} alt="pokefight" /> */}
                     </div>
                     <div className="pokefightinfo">
