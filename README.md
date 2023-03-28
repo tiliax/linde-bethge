@@ -1,3 +1,3 @@
 # Linde Bethge
 
-https://linde-bethge.onrender.com
+https://linde-bethge.netlify.app/
